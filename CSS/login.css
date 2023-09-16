@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+.superior{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    
+}
+#logocanto img{
+    width: 60px;
+}
+
+#centro{
+    text-align: center;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    float: left;
+    
+    margin-left: auto;
+    
+}
+li a{
+    display: block;
+    
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover{
+    background-color: #555555;
+    color: white ;
+}
+
+li a:hover{
+    background-color: #555555;
+    color: white ;
+}
+
+a{
+    display: block;
+    padding: 12px ;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    margin-top: 10px;
+    
+    
+}

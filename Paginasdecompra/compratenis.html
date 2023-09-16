@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="../CSS/compratotal.css">
+    <script src="../JS/compra.js"></script>
+</head>
+<body>
+<!--Formulario de compra e tamanho de tenis-->
+      <div id="container">
+          <h1>Confirmação de compra</h1>
+         <div class="campo">
+             <label for="Tamanho">Tamanho:</label>
+             <select name="" id="Tamanho">
+                 <option value="">Escolha uma das opções</option>
+                 <option value="">35</option>
+                 <option value="">36</option>
+                 <option value="">37</option>
+                 <option value="">38</option>
+                 <option value="">39</option>
+                 <option value="">40</option>
+                 <option value="">41</option>
+                 <option value="">42</option>
+                 <option value="">43</option>
+                 <option value="">44</option>
+             </select> <br>    
+         </div> 
+         <div class="campo">
+             <button id="botao"><a href="tabela.html">Tabela de tamanho</a></button> 
+         </div>
+         <div class="campo">
+             <label for="cor">Escolha a cor do produto</label> 
+             <input type="radio" name="cor">Branco 
+             <input type="radio" name="cor">Preto 
+         </div>
+         <div class="campo">
+             <label for="endereço">Digite o endereço:</label>
+             <input type="text" id="endereço" placeholder="endereço do remetente"> 
+         </div>
+         <div class="campo">
+             <label for="cep">CEP:</label>
+             <input type="text" id="cep" placeholder="cep"> 
+         </div>
+         <div class="campo">
+             <label for="quantidade">Quantidade:</label>
+             <input type="text" id="quantidade" placeholder="Quantidade de produtos"> <br>
+         </div>
+         <div class="campo">
+             <button id="botaocompra" onclick="confirmar()">PAGAMENTO</button>
+         </div>
+     </div>
+
+</body>
+</html>

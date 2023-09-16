@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="../CSS/conpagamento.css">
+</head>
+<body><!--Formulario de pagamento das compras-->
+    <div id="container">
+        <h1>Forma de pagamento</h1>
+       
+       <div class="campo">
+           <label for="modo">Modo de pagamento</label>
+           <select name="" id="modo">
+               <option value="">Escolha uma das opções</option>
+               <option value="">Cartão de debíto</option>
+               <option value="">Cartão de credíto</option>
+           </select> <br>    
+       </div> 
+        <h3>Dados do cartão</h3>
+       <div class="campo">
+           <label for="número">Número do cartão:</label>
+           <input type="text" id="número" placeholder="....-....-....-...."> 
+       </div>
+       <div class="campo">
+           <label for="data">Data de vencimento:</label>
+           <input type="text" id="data" placeholder="mm/aa"> 
+       </div>
+       <div class="campo">
+           <label for="cvv">Código de segurança:</label>
+           <input type="text" id="cvv" placeholder="***"> <br>
+       </div>
+       <div class="campo">
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" placeholder="nome no cartão">
+       </div>
+       <div class="btn">
+           <a href="../Paginasdecompra/checkpag.html">CONFIRMAR</a>
+       </div>
+   </div>
+</body>
+</html>

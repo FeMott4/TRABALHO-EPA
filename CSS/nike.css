@@ -1,0 +1,75 @@
+.nike{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    flex-wrap: wrap;
+}
+#logocanto img{
+    width: 60px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top: 100px;
+}
+h3{
+    margin-left: 5px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  
+   
+}
+li{
+    float: left;
+    margin-left: auto;
+    
+}
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover{
+    background-color: #555555;
+    color: white ;
+}
+#botao a{
+    display: block;
+    padding: 0px ;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao{
+    background-color:rgb(127, 189, 33);
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+}
+.fotos img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    margin-top: 100px;
+}

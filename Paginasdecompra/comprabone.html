@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="../CSS/compratotal.css">
+    <script src="../JS/compra.js"></script>
+</head>
+<body>
+        <!--Formulario de escolha de tamanho e compra de boné-->
+      <div id="container">
+          <h1>Confirmação de compra</h1>
+         
+         <div class="campo">
+             <label for="Tamanho">Tamanho:</label>
+             <select name="" id="Tamanho">
+                 <option value="">Escolha uma das opções</option>
+                 <option value="">53/PP</option>
+                 <option value="">54/P</option>
+                 <option value="">57/M</option>
+                 <option value="">58-59/G</option>
+                 <option value="">60-61/GG</option>
+                 <option value="">62-63/GGG</option>
+             </select> <br>    
+         </div> 
+         <div class="campo">
+             <label for="endereço">Digite o endereço:</label>
+             <input type="text" id="endereço" placeholder="endereço do remetente"> 
+         </div>
+         <div class="campo">
+             <label for="cep">CEP:</label>
+             <input type="text" id="cep" placeholder="cep"> 
+         </div>
+         <div class="campo">
+             <label for="quantidade">Quantidade:</label>
+             <input type="text" id="quantidade" placeholder="Quantidade de produtos"> <br>
+         </div>
+         <div class="campo">
+             <button id="botaocompra" onclick="confirmar()">PAGAMENTO</button>
+         </div>
+     </div>
+
+</body>
+</html>

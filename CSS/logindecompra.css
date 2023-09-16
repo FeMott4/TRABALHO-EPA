@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    
+}
+.campo{
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+body{
+    background-color: rgb(243, 239, 239);
+    margin: 0%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    max-width: 300px;
+    background-color: white;
+    border: 2px solid;
+    padding: 12px;
+    border-radius: 9px;
+    margin-top: 50px;
+    box-shadow: 0px 10px 10px  rgb(145, 143, 143);
+}
+#botao{
+    width: 100%;
+    border-radius: 3px;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 15px;
+}
+.campo input{
+    margin-left: 5px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    transition: 0.2s all;
+}
+.campo input::placeholder{
+    color: rgb(184, 185, 190);
+}
+.campo input:focus{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.campo button{
+    outline: nome;
+    padding: 10px;
+    border: 0px;
+    color: black;
+    background-color: rgb(181, 181, 184);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.campo button:hover{
+    background-color: rgb(138, 138, 139);
+
+}
+#botao a{
+    display: block;
+    padding: 0px ;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao{
+    background-color: black;
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+
+}
+h3{
+    margin-top: 20px;
+}

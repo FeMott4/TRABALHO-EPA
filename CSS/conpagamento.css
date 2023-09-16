@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+}
+#container{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    max-width: 400px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    box-shadow: 0px 10px 10px  rgb(138, 138, 146);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  
+}
+.campo label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.campo input{
+    margin-left: 5px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    transition: 0.2s all;
+}
+.campo input::placeholder{
+    color: rgb(71, 71, 71);
+}
+.campo input:focus{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.btn{
+    color: white;
+    background-color:rgb(127, 189, 33);
+    border: 0;
+    border-radius: 3px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn a{
+    color: white;
+    display: block;
+    padding: 0px ;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
